@@ -22,3 +22,12 @@ Route::get('/new', function () {
 Route::get('/new', function () {
     return "hello world";
 });
+Route::get('/home',function(){
+    return views('home')
+});
+Route::get('/home',function(){
+    return views('about')
+});
+Route::get('/home',function(){
+    return views('contact')
+});
